@@ -7,7 +7,7 @@ if (process.env.NODE_ENV === 'production') {
     output = {
         path: path.resolve(__dirname, './lib'),
         publicPath: '/lib/',
-        filename: 'v-week-slider.js',
+        filename: 'b-week-slider.js',
         libraryTarget: 'umd',
         umdNamedDefine: true
     }
